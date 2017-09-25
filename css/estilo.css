@@ -1,0 +1,112 @@
+html,body{
+    height: 100%;
+}
+
+body{
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: #000;
+	border:0px;
+}
+header{
+	line-height:0px;
+}
+main{
+	width:100%;
+	background-color: #FFF;
+}
+
+.navbar{
+	background-color:#1EB98A;
+	border:0px;
+	margin:0px;
+}
+
+.logo{
+	width:30%;
+}
+
+.carousel{
+	width:100%;
+}
+
+.first-form{
+	padding:10px;
+}
+
+.first-form h3{
+	margin:0px;
+	color:#1EB98A;
+	text-transform:uppercase;
+}
+
+.articles{
+	background-color: #FFF;
+	width:100%;
+	padding:10px;
+}
+
+.boxes li {
+	display: inline-block;
+
+	width: 45%;
+	height:50%;
+	box-sizing: border-box;
+	padding: 16px;
+	margin: 16px;
+	position:relative;
+}
+
+.boxes a{
+	color: black;
+}
+
+.boxes img{
+	max-width:90%;
+	margin.2em;
+}
+
+.float-title{
+	max-width:50%;
+	background-color: #1EB98A;
+	color: white;
+	float:left;
+	position:absolute;
+	top:50%;
+	padding:0.2em;
+}
+
+.form-title{
+	width:100%;
+	padding:0.2em;
+	padding-left:1em;
+	background-color: #191970;
+	color:white;
+	text-transform:uppercase;
+	margin: 0px;
+	border:0px;
+}
+
+.second-form{
+	width:100%;
+	background-color:#1EB98A;
+	margin:0px;
+	border:0px;
+}
+
+.form-config{
+	padding: 1em 0.5em;
+}
+#div-artigos{
+	position:relative;
+	width:95%;
+	margin:none;
+}
+.img-title-art{
+	width:100%;
+}
+
+#mensagens-erro {
+	color: red;
+}
