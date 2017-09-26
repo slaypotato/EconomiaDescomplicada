@@ -12,6 +12,10 @@
                 }           
             echo 'Connected successfully';
             mysql_close($link);
+        
+        // RECEBENDO OS DADOS PREENCHIDOS DO FORMULÁRIO !
+        $nome	= $_POST ["nome"];	
+        $email	= $_POST ["email"];
         ?>
    </body>
 </html>
