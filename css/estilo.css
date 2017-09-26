@@ -64,7 +64,12 @@ main{
 
 .boxes img{
 	max-width:90%;
-	margin.2em;
+	margin:0.2em;
+}
+
+.boxes figcaption{
+	max-width:90%;
+	margin:0.2em;
 }
 
 .float-title{
@@ -104,9 +109,8 @@ main{
 	margin:none;
 }
 .img-title-art{
-	width:100%;
+	width:95%;
 }
-
 #mensagens-erro {
 	color: red;
 }

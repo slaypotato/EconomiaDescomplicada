@@ -26,23 +26,62 @@
 					<input id="nome" name="nome" class="form-control" type="text" placeholder="Seu nome"><br>
 				</div>
 				<div class="form-group mx-sm-3">
-					<input id="email" class="form-control" type="email" placeholder="Seu e-mail">
+					<input id="email" name="email" class="form-control" type="email" placeholder="Seu e-mail">
 				</div>
-				<button type="button" class="btn btn-info" type="submit" id="cadastro-usuario" onclick="window.location.href='article_template.html';">Enviar</button>
+				<button type="button" class="btn btn-info" type="submit" id="cadastro-usuario" onclick="window.location.href='index.html';">Enviar</button>
 			</form>
 
 
 		</section>
 		<section class="carousel">
-			<img class="img-responsive" src="img/castelo.jpg">
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			  <!-- Indicators -->
+			  <ol class="carousel-indicators">
+				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			  </ol>
+
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner" role="listbox">
+				<div class="item active">
+				  <img src="img/refinanciar-veiculo.png" alt="Vale a pena refinanciar veiculo">
+				  <div class="carousel-caption">
+					<a href="artigos/vale-a-pena-refinanciar-veiculo.html">Vale a pena sim refinanciar seu veículo! Entenda o porquê. </a>
+				  </div>
+				</div>
+				<div class="item">
+				  <img src="img/perder-emprego.png" alt="Acabei de Perder o Emprego">
+				  <div class="carousel-caption">
+					<a href="artigos/acabei-de-perder-o-emprego.html">Acabei de perder o emprego e não tenho reservas. O que fazer?</a>
+				  </div>
+				</div>
+				<div class="item">
+				  <img src="img/perder-emprego.png" alt="Acabei de Perder o Emprego">
+				  <div class="carousel-caption">
+					<a href="artigos/acabei-de-perder-o-emprego.html">Acabei de perder o emprego e não tenho reservas. O que fazer?</a>
+				  </div>
+				</div>
+			  </div>
+
+			  <!-- Controls -->
+			  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			  </a>
+			  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			  </a>
+			</div>
 		</section>
 		<section class="articles">
 				<ul class="boxes">
 				 <li>
 				  <a href="artigos/acabei-de-perder-o-emprego.html" class="colorhref">
 				   <figure>
-					<img class="img-responsive" src="img/como-investir.jpg" alt="Acabei de Perder o Emprego">
-					<div class="float-title"><h4>Acabei de Perder o Emprego e não tenho reservas.<br> O que fazer?</h4></div>
+					<img class="img-responsive" src="img/perder-emprego.png" alt="Acabei de Perder o Emprego">
+					<div class="float-title"><h4>Acabei de perder o emprego e não tenho reservas. O que fazer? </h4></div>
 					<figcaption>Nós sabemos que receber a notícia de que você está sendo desligado de uma empresa não é... Leia Mais</figcaption>
 				   </figure>
 				  </a>
@@ -50,8 +89,8 @@
 				 <li>
 				  <a href="artigos/como-comecar-a-investir.html" class="colorhref">
 				   <figure>
-					<img class="img-responsive" src="img/como-investir.jpg" alt="Como começar a investir?">
-					<div class="float-title"><h4>Como começar a investir?</h4></div>
+					<img class="img-responsive" src="img/como-investir.png" alt="Como começar a investir?">
+					<div class="float-title"><h4>Como começar a investir de maneira simples?</h4></div>
 					<figcaption>Tenho certeza que você já pensou em como investir seu dinheiro, mas não faz idéia por onde começar... Leia Mais</figcaption>
 				   </figure>
 				  </a>
@@ -59,8 +98,8 @@
 				 <li>
 				  <a href="artigos/emprestimo-com-garantia.html" class="colorhref">
 				   <figure>
-					<img class="img-responsive" src="img/emprestimo.jpg" alt="Emprestimo com garantia">
-					<div class="float-title"><h4>O que é empréstimo com garantia? E como funciona?</h4></div>
+					<img class="img-responsive" src="img/emprestimo-com-garantia.png" alt="Emprestimo com garantia">
+					<div class="float-title"><h4>O que é o empréstimo com garantia? Como ele funciona? </h4></div>
 					<figcaption>Empréstimo com garantia é uma das mais de dez maneiras de se conseguir crédito dentro do mercado ... Leia Mais</figcaption>
 				   </figure>
 				  </a>
@@ -68,8 +107,8 @@
 				 <li>
 				  <a href="artigos/vale-a-pena-refinanciar-veiculo.html" class="colorhref">
 				   <figure>
-					<img class="img-responsive" src="img/como-investir.jpg" alt="Vale a pena refinanciar veiculo">
-					<div class="float-title"><h4>Vale a pena refinanciar veículo! Entenda por que.</h4></div>
+					<img class="img-responsive" src="img/refinanciar-veiculo.png" alt="Vale a pena refinanciar veiculo">
+					<div class="float-title"><h4>Vale a pena sim refinanciar seu veículo! Entenda o porquê. </h4></div>
 					<figcaption>Entre os altos e baixos da economia brasileira, a falta de dinheiro é um problema cada vez mais comum e o ... Leia Mais</figcaption>
 				   </figure>
 				  </a>
@@ -77,8 +116,8 @@
 				 <li>
 				  <a href="artigos/vender-o-imovel-ou-alugar.html" class="colorhref">
 				   <figure>
-					<img class="img-responsive" src="img/como-investir.jpg" alt="Vender o imovel ou Alugar">
-					<div class="float-title"><h4>Vender o Imóvel ou Alugar e aplicar dinheiro?</h4></div>
+					<img class="img-responsive" src="img/vender-ou-alugar.png" alt="Vender o imovel ou Alugar">
+					<div class="float-title"><h4>Vender seu imóvel ou alugá-lo?</h4></div>
 					<figcaption>Quem possui uma segunda casa ou apartamento e precisa fazer as contas antes de colocar para alugar ... Leia Mais</figcaption>
 				   </figure>
 				  </a>
@@ -100,7 +139,6 @@
 			</form>
 		</section>
 		</main>
-
 		<script src="js/jquery.js"></script>
 		<script src="bootstrap/js/bootstrap.min.js"></script>
 		<script src="js/form.js"></script>

@@ -1,13 +1,17 @@
 var botaoAdicionar = document.querySelector("#cadastro-usuario");
 
+
 botaoAdicionar.addEventListener("click", function(event) {
     event.preventDefault();
 
     var form = document.querySelector("#form-adiciona");
 
+
     var usuario = obtemPacienteDoFormulario(form);
 
+
     var erros = validaPaciente(usuario);
+
     if (erros.length > 0) {
       exibeMensagensDeErro(erros);
 
@@ -30,7 +34,7 @@ function obtemPacienteDoFormulario(form){
 
 function validaPaciente(usuario) {
 
-    var erros = [];
+    var erro = [];
 
     if (usuario.nome.length == 0) {
         erros.push("O nome não pode ser em branco");
@@ -40,7 +44,7 @@ function validaPaciente(usuario) {
         erros.push("Email não pode ser em branco");
     }
 
-    return erros;
+    return erro;
 }
 
 function exibeMensagensDeErro(erros) {
