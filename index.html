@@ -34,14 +34,14 @@
 			<h3>CANSADO DE JUROS ABUSIVOS?</h3>
 
 			<ul id="mensagens-erro"></ul>
-			<form class="form-inline" id="form-adiciona" method="post" action="index.php">
+			<form class="form-inline frm-1" id="form-adiciona" method="post" action="index.php">
 				<div class="form-group">
 					<input id="nome" name="nome" class="form-control" type="text" placeholder="Seu nome"><br>
 				</div>
 				<div class="form-group mx-sm-3">
 					<input id="email" name="email" class="form-control" type="email" placeholder="Seu e-mail">
 				</div>
-				<button type="button" class="btn btn-info" type="submit" id="cadastro-usuario" onclick="window.location.href='index.html';">Enviar</button>
+				<button type="button" class="btn btn-info btn-1" type="submit" id="cadastro-usuario" onclick="window.location.href='index.html';">Enviar</button>
 			</form>
 
 
@@ -141,19 +141,32 @@
 			<div class="form-title">
 				<h3>Assine nossa Newsteller</h3>
 			</div>
-			<form class="form-inline form-config">
+			<form class="form-inline form-config frm-2">
 				<div class="form-group">
 					<input id="contato-nome" class="form-control" type="text" placeholder="Seu nome"><br>
 				</div>
 				<div class="form-group mx-sm-3">
 					<input id="contato-email" class="form-control" type="email" placeholder="Seu e-mail">
 				</div>
-				<button type="button" class="btn btn-info" type="submit">Enviar</button>
+				<button type="button" class="btn btn-info btn-2" type="submit">Enviar</button>
 			</form>
 		</section>
 		</main>
 		<script src="js/jquery.js"></script>
 		<script src="bootstrap/js/bootstrap.min.js"></script>
 		<script src="js/form.js"></script>
+		
+		<script>
+			$('.btn-2').click(function(e){
+				dataLayer.push({'event' : 'buttonClick'});
+				e.preventDefault();
+				$('.frm-2 >').submit();
+			});
+			$('.btn-1').click(function(e){
+				dataLayer.push({'event' : 'buttonClick'});
+				e.preventDefault();
+				$('.frm-1 >').submit();
+			});
+		</script>
 	</body>
 </html>
